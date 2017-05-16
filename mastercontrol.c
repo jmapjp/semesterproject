@@ -3,10 +3,11 @@
 
 int main(void)
 {
-        int option;
+        int choice;
         printf("------------------ Main Menu -----------------------\n");
         printf("1. Lab 2\n2. Lab 5\n3. Optional Requirement: RPi in action\n0 for exit\n");
         printf("Enter your Selection : ");
-        scanf("%d",&option);
-        return (option);
+        scanf("%d",&choice);
+        return (choice);
+     
 }
